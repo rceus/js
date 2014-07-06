@@ -1,5 +1,5 @@
-Collection of Javascript and related functions and practices
-==========================================================
+Collection of best practices in development using JavaScript
+=========================================================================
 
 Some interesting things from my first take on js development. This repository contains some of the best practices in js development I came across.
 
