@@ -10,3 +10,5 @@ Written and compiled by: Rishabh Jain
 References:
 
 http://www.blackbam.at/blackbams-blog/2011/07/01/my-todays-top-10-most-useful-javascript-functions/
+
+http://www.onextrapixel.com/2012/10/04/10-useful-and-time-saving-javascript-snippets/
