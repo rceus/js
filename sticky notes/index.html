@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Online Sticky Notes</title>
+	<link rel="stylesheet" href="stylesheet.css" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Short+Stack' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+  	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  	<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+</head>
+<body>
+	<div class="container">
+		<center><h2>Sticky Notes</h2></center> 
+		<center>
+			<table class="table-css" id="table-css">
+			<tr>
+				<th>Title</th>
+				<th>Description</th>
+				<th></th>
+			</tr>	
+			<tr>
+				<td><input type="text" id="title-1" value="Title" /></td>
+				<td><input type="text" id="description-1" value="Enter Task" /></td>
+				<td><a class="deleteButton" id="Delete-1" title="Delete Task">Clear</a></td>
+			</tr>
+			</table>
+			<p><input type="button" id="addNew" value="Add" /></p>
+			<p><input type="button" id="refreshNotes" value="Refresh Sticky Notes" /></p>
+		</center>
+		<center>
+		<div class="clear"></div>
+			<ul class="sticky_notes">
+
+			</ul>
+
+		<div class="clear"></div>	
+		</center>	
+	</div>
+
+<body>
+</html>

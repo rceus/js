@@ -1,0 +1,94 @@
+.container{
+	width:99%;
+	margin:10px auto;
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	min-height:100%;
+	height:auto;	
+}
+
+body{
+	background:#FFF;
+	color:black;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 700;
+    font-size: 2.3em;
+}
+
+.clear { 
+	clear:both; 
+}
+
+.table-css{
+	border:1px solid #888;
+	margin-left:30% auto;
+	margin-right: 30% auto;
+	width: 40%;
+		-moz-border-radius:3px;  
+  	-webkit-border-radius: 3px;  
+  	border-radius:3px;
+
+}
+.table-css input[type=text] { width:300px; padding:3px };
+.deleteButton { 
+  cursor:pointer; 
+}
+
+a:link
+{
+	color: blue;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+
+ul.sticky_notes{ list-style:none; }
+ul.sticky_notes li{
+	width:250px;
+	height:200px;
+	padding:20px;
+	margin-left:6%;
+  margin-top: 10px;
+  margin-bottom: 100px;
+	float:left;
+	 /* Firefox */  
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);  
+  /* Safari+Chrome */  
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);  
+  /* Opera */  
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7); 
+  font-family: 'Short Stack', cursive;
+  font-size: 0.34em;
+
+}
+ul.sticky_notes p{
+	font-size:2px;
+}
+
+ul.sticky_notes li:hover{   
+  -webkit-transform: scale(1.25);  
+  -moz-transform: scale(1.25);  
+  -o-transform: scale(1.25);  
+  position:relative;  
+  z-index:10;  
+  -moz-box-shadow:0px 10px 7px rgba(0,0,0,.7);  
+  -webkit-box-shadow: 0px 10px 7px rgba(0,0,0,.7);  
+  box-shadow:0px 10px 7px rgba(0,0,0,.7); 
+  -webkit-transition: all 300ms ease-in 50ms;
+    -moz-transition: all 300ms ease-in 50ms;
+    -o-transition: all 300ms ease-in 50ms;
+    transition: all 300ms ease-in 50ms;
+    cursor:pointer;
+}
+
+.yellow{background:#ffc;}
+.green{	background:#cfc;}
+.blue { background:#ccf;}
+.red{background:#f24a4a;}
+.purple{background:#eaafe3}
+.orange{background:#f28e50;}
+
