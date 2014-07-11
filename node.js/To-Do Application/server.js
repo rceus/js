@@ -7,7 +7,7 @@ var mongoose = require('mongoose');
 
 //config
 //connect to mongo db database
-mongoose.connect('mongodb://node:node@mongo.onmodulus.net:27017/uw03mypu')
+mongoose.connect('mongodb://optimus:swordfish@mongo.onmodulus.net:27017/uro9vaMe')
 
 app.configure(function(){
 	app.use(express.static(__dirname)+'/public')
